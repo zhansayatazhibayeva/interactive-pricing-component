@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
+  <title>Frontend Mentor | Interactive pricing component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <script defer src="script.js"></script>
+  <img src="images/pattern-circles.svg" class="circles">
+  <h1>Simple, traffic-based pricing</h1>
+  <h4>Sign-up for our 30 dat trial.No credit card required.</h4>
+  <div class="gradient-container"></div>
+  <div class="container">
+    <div class="row">
+      <h3>100k Pageviews</h3>
+      <p><span>$16</span>/month</p>
+    </div>
+    <div class="slider-container">
+      <input type="range" min="0" max="100" value="50" class="slider-range" id="pricing-slider">
+    </div>
+    <div class="pricing-toggle">
+      <span>Monthly Billing</span>
+      <label class="switch">
+        <input type="checkbox" id="toggle-switch">
+        <span class="slider"></span>
+      </label>
+      <span>Yearly Billing</span>
+    </div>
+    <div class="divider"></div>
+    <div class="info">
+      <div class="info-lines">
+        <div class="line">
+          <img src="images/icon-check.svg">
+          <span>Unlimited websites</span>
+        </div>
+        <div class="line">
+          <img src="images/icon-check.svg">
+          <span>100% data ownership</span>
+        </div>
+        <div class="line">
+          <img src="images/icon-check.svg">
+          <span>Email reports</span>
+        </div>
+      </div>
+      <div>
+        <button>Start my free trial</button>
+      </div>
+      
+    </div>
+</body>
+</html>
